@@ -11,14 +11,19 @@ $('#city-type').change(function(event) {
   event.preventDefault()
   var userInput = $('#city-type').val()
   if (userInput === 'LA') {
+  $('body').removeClass()
   $('body').addClass('la')
 } else if (userInput === 'NYC') {
+    $('body').removeClass()
     $('body').addClass('nyc')
   } else if (userInput === 'San Fran') {
+    $('body').removeClass()
     $('body').addClass('sf')
   } else if (userInput === 'Sydney') {
+    $('body').removeClass()
     $('body').addClass('sydney')
   } else if (userInput === 'Austin') {
+    $('body').removeClass()
     $('body').addClass('austin')
   }
 })
